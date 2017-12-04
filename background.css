@@ -1,0 +1,10 @@
+body {
+    background-image: url("https://www.nationalgeographic.com/content/dam/photography/PROOF/2016/06/carreau-aqua-viva/pierre-carreau-aquaviva-12.jpg");
+    color: black;
+}
+#placement{
+    position: relative;
+    margin: auto;
+    width: 100%;
+
+}

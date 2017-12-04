@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="hangman.js"></script>
+
+    <link rel="stylesheet" href="background.css"/>
+</head>
+<body onload="createVars()">
+<div id="placement">
+<div id="title"  font-size="45px">Guess the word</div>
+<div id="title2"  class="text"  font-size="45px">Pick a letter to see if you are right:</div>
+<select id="category">
+    <option value="1">people</option>
+    <option value="2">places</option>
+</select>
+<button id="Start Game" onclick="startgame()"> Lets get it going </button>
+<select id="alphabet">
+    <option value="a">a</option>
+    <option value="b">b</option>
+    <option value="c">c</option>
+    <option value="d">d</option>
+    <option value="e">e</option>
+    <option value="f">f</option>
+    <option value="g">g</option>
+    <option value="h">h</option>
+    <option value="i">i</option>
+    <option value="j">j</option>
+    <option value="k">k</option>
+    <option value="l">l</option>
+    <option value="m">m</option>
+    <option value="n">n</option>
+    <option value="o">o</option>
+    <option value="p">p</option>
+    <option value="q">q</option>
+    <option value="r">r</option>
+    <option value="s">s</option>
+    <option value="t">t</option>
+    <option value="u">u</option>
+    <option value="v">v</option>
+    <option value="w">w</option>
+    <option value="x">x</option>
+    <option value="y">y</option>
+    <option value="z">z</option>
+</select>
+<button id="takeAGuess" onclick="guessLetter()">Take a Guess</button>
+<div id="GuessedLeft"></div>
+<div id="space"></div>
+<div id="guess"></div>
+<div id="AlreadyGuessed"></div>
+<div id="printWord"></div>
+<div id="Letters"></div>
+<div id="win"></div>
+<div id="lose"></div>
+<div id="guessguess"></div>
+</div>
+</body>
+</html>
